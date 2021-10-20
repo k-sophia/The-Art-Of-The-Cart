@@ -43,7 +43,7 @@ ___
 *Now that you have your Bicycle(), your parents want you to run some errands. Today you must go grocery shopping. What your parents don’t realize is 
 that now you’re in charge. You have the money and the list! The list...how do you make a list again?*
 
-Modify the DynamicArray.cpp file to implement the following methods (I highly suggest that you complete them in the presented order). The prototypes 
+Modify the **DynamicArray.cpp** file to implement the following methods (I highly suggest that you complete them in the presented order). The prototypes 
 have already been written for you.
 
 i)
@@ -139,8 +139,8 @@ ___
 
 *Did you get everything you wanted? Great! Time to check out and head back home. Hope you remembered to get the bread...*
 
-Define the ShoppingCart class as a child of the DynamicArray class in a file entitled ShoppingCart.hpp. All shopping carts have a maximum carrying 
-capacity of 350 pounds. Implement the class in a file entitled ShoppingCart.cpp. You must include but are not limited to the following methods and members:
+Define the ShoppingCart class as a child of the DynamicArray class in a file entitled **ShoppingCart.hpp**. All shopping carts have a maximum carrying 
+capacity of 350 pounds. Implement the class in a file entitled **ShoppingCart.cpp**. You must include but are not limited to the following methods and members:
 
 ```
 public: 
@@ -204,7 +204,7 @@ private:
    double curr_contents_weight_;
 ```
 
-Here is a freebie implementation of method checkout() to put in ShoppingCart.cpp:
+Here is a freebie implementation of method checkout() to put in **ShoppingCart.cpp**:
 
 ```
 double ShoppingCart::checkout()
