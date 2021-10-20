@@ -6,7 +6,7 @@ and JunkFood, which will collectively represent every type of item with which yo
 will use separate compilation with g++ to link multiple classes into one executable, and, in order to successfully complete this project, 
 you must understand the concept of an abstract data type, template classes, dynamic memory allocation, and polymorphism.
 
-## Implementation:
+## Implementation
 
 Work incrementally! Work through the tasks sequentially (implement and test). Only move on to a task when you are positive that the previous 
 one has been completed correctly. Remember that the names of function prototypes and member variables must exactly match those declared in the 
