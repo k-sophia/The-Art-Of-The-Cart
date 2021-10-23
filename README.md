@@ -1,10 +1,10 @@
 # The-Art-Of-The-Cart
 
-Implement a high level shopping simulator using iinheritance to model a class, ShoppingCart, after another class, DynamicArray, that you 
-will modify to make functional. You will proceed to create an abstract Grocery class and to create its concrete children Vegetable, Drink, 
-and JunkFood, which will collectively represent every type of item with which you can populate a ShoppingCart object. For this project you 
-will use separate compilation with g++ to link multiple classes into one executable, and, in order to successfully complete this project, 
-you must understand the concept of an abstract data type, template classes, dynamic memory allocation, and polymorphism.
+Implement a high level shopping simulator using iinheritance to model a class, ```ShoppingCart```, after another class, ```DynamicArray```, 
+that you will modify to make functional. You will proceed to create an abstract ```Grocery``` class and to create its concrete children 
+```Vegetable```, ```Drink```, and ```JunkFood```, which will collectively represent every type of item with which you can populate a ShoppingCart 
+object. For this project you will use separate compilation with g++ to link multiple classes into one executable, and, in order to successfully 
+complete this project, you must understand the concept of an abstract data type, template classes, dynamic memory allocation, and polymorphism.
 
 ## Implementation
 
@@ -43,7 +43,7 @@ ___
 *Now that you have your Bicycle(), your parents want you to run some errands. Today you must go grocery shopping. What your parents don’t realize is 
 that now you’re in charge. You have the money and the list! The list...how do you make a list again?*
 
-Modify the **DynamicArray.cpp** file to implement the following methods (I highly suggest that you complete them in the presented order). The prototypes 
+Modify the ```DynamicArray.cpp``` file to implement the following methods (I highly suggest that you complete them in the presented order). The prototypes 
 have already been written for you.
 
 i)
@@ -82,9 +82,9 @@ ___
 
 *That’s right; you heard me! FOOD! Everything you could ever want! Grab whatever your heart desires!*
 
-Define and implement the Vegetable, Drink, and JunkFood classes as polymorphic children of the Grocery class.
+Define and implement the ```Vegetable```, ```Drink```, and ```JunkFood``` classes as polymorphic children of the ```Grocery``` class.
 
-Class Vegetable must contain the following methods:
+Class ```Vegetable``` must contain the following methods:
 
 ```
 /**
@@ -99,7 +99,7 @@ Vegetable(std::string name, double price, double weight)
 void updateCost()    // updates total_price_
 ```
 
-Class Drink must contain the following methods:
+Class ```Drink``` must contain the following methods:
 
 ```
 /**
@@ -118,7 +118,7 @@ void updateCost()    // updates total_price_
 
 *Note*: 1 liter == 33.814 fluid ounces
 
-Class JunkFood must contain the following methods:
+Class ```JunkFood``` must contain the following methods:
 
 ```
 /**
@@ -139,8 +139,9 @@ ___
 
 *Did you get everything you wanted? Great! Time to check out and head back home. Hope you remembered to get the bread...*
 
-Define the ShoppingCart class as a child of the DynamicArray class in a file entitled **ShoppingCart.hpp**. All shopping carts have a maximum carrying 
-capacity of 350 pounds. Implement the class in a file entitled **ShoppingCart.cpp**. You must include but are not limited to the following methods and members:
+Define the ```ShoppingCart``` class as a child of the DynamicArray class in a file entitled ```ShoppingCart.hpp```. All shopping carts have a maximum 
+carrying capacity of 350 pounds. Implement the class in a file entitled ```ShoppingCart.cpp```. You must include but are not limited to the following 
+methods and members:
 
 ```
 public: 
@@ -204,7 +205,7 @@ private:
    double curr_contents_weight_;
 ```
 
-Here is a freebie implementation of method checkout() to put in **ShoppingCart.cpp**:
+Here is a freebie implementation of method checkout() to put in ```ShoppingCart.cpp```:
 
 ```
 double ShoppingCart::checkout()
