@@ -243,9 +243,8 @@ How to compile:
 g++ ShoppingCart.cpp Grocery.cpp Vegetable.cpp JunkFood.cpp Drink.cpp <test main file> -std=c++17
 ```
 
-You must always implement and test you programs INCREMENTALLY!!! What does this mean?
+You must always implement and test you programs INCREMENTALLY!!! What does this mean? Implement and test one method at a time. **For each class**
 
-* Implement and test one method at a time. For each class
 * Implement one function/method and test it thoroughly (multiple test cases + edge cases if applicable).
 * Implement the next function/method and test in the same fashion.
   * **How do you do this?**  Write your own main() function to test your classes. In this course you will never submit your test program, but you 
